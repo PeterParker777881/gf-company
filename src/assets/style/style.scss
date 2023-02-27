@@ -1,0 +1,23 @@
+@import "vars";
+@import "fonts.scss";
+@import "vendor/reset.scss";
+
+body {
+  background-color: $white;
+
+  font-family: $norms;
+  font-size: 16px;
+  line-height: 1.25;
+  color: $black;
+
+  &.no-scroll {
+    overflow: hidden;
+    padding-right: 15px;
+  }
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
